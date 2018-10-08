@@ -1,0 +1,10 @@
+body { margin : 0; padding: 0; width: 100%; height: 100vh; display: flex; justify-content: center; }
+.Titre {text-align: center;}
+
+ 
+ .Livre{position: relative; width: 400px; height: 444px; background: rgba(0,0,0,0); margin-top: 300px; margin-left: 100px; transform: scale(0.8); transition: 1.5s;}
+ .Livre img { position: absolute; width: 200px; transition: 1.8s; }
+ .Livre:hover img:nth-child(4) { transform: translate(-80px,-80px); opacity: 1; }
+ .Livre:hover img:nth-child(3) { transform: translate(-60px,-60px); opacity: .8; } 
+ .Livre:hover img:nth-child(2) { transform: translate(-40px,-40px); opacity: .6; }
+ .Livre:hover img:nth-child(1) { transform: translate(-20px,-20px); opacity: .4; }
