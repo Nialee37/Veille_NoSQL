@@ -1,0 +1,17 @@
+/*body { margin : 0; padding: 0; width: 100%; height: 100vh; display: flex; justify-content: center; }*/
+body {background-image:url(Images/fond.jpg); background-attachment:fixed;}
+.Titre {text-align: center;}
+
+
+ 
+ .Livre{position: relative; width: 400px; height: 444px; background: rgba(0,0,0,0); margin-top: 100px; margin-left: 625px; transform: scale(0.8);}
+ .Livre img { position: absolute; width: 200px; transition: 1s; }
+ .Livre:hover img:nth-child(4) { transform: translate(-40px,-40px); opacity: 1; }
+ .Livre:hover img:nth-child(3) { transform: translate(-30px,-30px); opacity: .8; } 
+ .Livre:hover img:nth-child(2) { transform: translate(-20px,-20px); opacity: .6; }
+ .Livre:hover img:nth-child(1) { transform: translate(-10px,-10px); opacity: .4; }
+
+
+
+ .ImageRetour { background-attachment:scroll;  margin-left: 95%; }
+
