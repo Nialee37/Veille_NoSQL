@@ -3,6 +3,11 @@ body {background-image:url(Images/fond.jpg); background-attachment:fixed;}
 .Titre {text-align: center;}
 
 
+
+.descriptionLivre{position: absolute; margin-top: 140px; margin-left: 30px;}
+.descriptionListe{position: absolute; margin-top: 220px; margin-left: 15px;}
+
+
  
  .Livre{position: relative; width: 400px; height: 444px; background: rgba(0,0,0,0); margin-top: 100px; margin-left: 625px; transform: scale(0.8);}
  .Livre img { position: absolute; width: 200px; transition: 1s; }
@@ -12,6 +17,36 @@ body {background-image:url(Images/fond.jpg); background-attachment:fixed;}
  .Livre:hover img:nth-child(1) { transform: translate(-10px,-10px); opacity: .4; }
 
 
+ .Liste{position: relative; width: 200px; height: 222px; background: rgba(0,0,0,0); margin-top: -425px; margin-left: 965px; transform: scale(0.8);}
+ .Liste img { position: absolute; width: 200px; transition: 1s; }
+ .Liste:hover img:nth-child(4) { transform: translate(-40px,-40px); opacity: 1; }
+ .Liste:hover img:nth-child(3) { transform: translate(-30px,-30px); opacity: .8; } 
+ .Liste:hover img:nth-child(2) { transform: translate(-20px,-20px); opacity: .6; }
+ .Liste:hover img:nth-child(1) { transform: translate(-10px,-10px); opacity: .4; }
 
+
+ .text{ background-color: #888888; margin-left: 350px; margin-right: 380px;   text-align: center; border-radius:10px;}
  .ImageRetour { background-attachment:scroll;  margin-left: 95%; }
 
+
+ul#TypeBDDNoSQL{ text-align: left; }
+a:link {text-decoration:none;  color:white;}
+a:visited {text-decoration:none; color:white;}
+
+
+/****Bouton retour****/
+a#cRetour{ border-radius:3px; padding:10px; font-size:15px; text-align:center; color:#fff; background:rgba(0, 0, 0, 0.25); position:fixed; right:20px; opacity:1; z-index:99999; transition:all ease-in 0.2s; backface-visibility: hidden; -webkit-backface-visibility: hidden; text-decoration: none;}
+a#cRetour:before{ content: "\25b2"; }
+a#cRetour:hover{ background:rgba(0, 0, 0, 1); transition:all ease-in 0.2s;}
+a#cRetour.cInvisible{ bottom:-35px; opacity:0; transition:all ease-in 0.5s;}
+a#cRetour.cVisible{ bottom:20px; opacity:1;
+/********************/
+
+
+
+
+
+
+
+
+}

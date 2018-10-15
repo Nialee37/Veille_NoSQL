@@ -1,8 +1,8 @@
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Veille NoSQL</title>
 	<link rel="stylesheet" type="text/css" href="style_Index.css">
-	
 </head>
 <header>
 	<p class="Titre"><img src="nosql.png" alt""/></p>
@@ -10,10 +10,18 @@
 
 <body>
 	<div class="Livre">
-		<a href="#test"><img src="Livre.png" alt=""/>	
-		<img src="Livre.png">
-		<img src="Livre.png">
-		<img src="Livre.png">
+		<a href="#ALivre"><img src="Images/Livre.png" alt=""/>
+		<img src="Images/Livre.png">
+		<img src="Images/Livre.png">
+		<img src="Images/Livre.png">
+		<h3 class="descriptionLivre">NoSQL c'est quoi ?</h3>		
+	</div>
+	<div class="Liste">
+		<a href="#AListe"><img src="Images/Liste.png" alt=""/>
+		<img src="Images/Liste.png">
+		<img src="Images/Liste.png">
+		<img src="Images/Liste.png">
+		<h3 class="descriptionListe">Les différentes solutions NoSQL</h3>		
 	</div>
 	<br>
 	<br>
@@ -82,11 +90,50 @@
 	<br>
 	<br>
 	<br>
-	<p class="text" id="test">
-		
-		sdvbjhfhnfjhrjkgnjdfjkfhfjernvbzf,zeknhfzejfhjsdkbjfopesjfiouev,fjkzebijcf,iqenjfehvbfgusfniejnfi izefjnczjhef,fyhzefh,jneboijoaznedhveufeskflm;eoirfnef,ecnufhse,fiosev,fgnsjfejfeshfsùleifehsfklsdhgjheurhnf ehfosehfjsgfesjdfhesei hfl semfj sefhkhfuseh  hef soih f efh e hfesh f es  shfem fe esfhsefhjseghufrpigjrldkhg rk oih uhjg  op gjsighsef,kghse jgj gelsjfsejbf feofelgh iejfehfiseo,feigrhguosnpofazefskerj iejfzenfeejfzepoifzeihtksùlfj  
-	
-	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="text">
+		<a id="ALivre">
+			<h4>
+			</br>
+			Le NoSQL, pour "not only SQL", désigne les bases de données qui ne sont pas fondées sur l'architecture classique des bases de données relationnelles.
+			</h4>
+			Lorsque l'on parle de NoSQL, on regroupe des systèmes de base de données qui ne sont pas relationnels, mais il faut savoir qu'il existe plusieurs types de bases de données "NoSQL"
+			<ul id="TypeBDDNoSQL">
+				<li>
+					Les bases clef/valeur, permettent de stocker des informations sous forme d'un couple clef/valeur où la valeur peut être une chaine de caractère, un entier ou un objet sérialisé. Une base de données Redis. Ce type de base de données offre de très bonne performances par sa simplicité et peut même être utilisé pour stocker les sessions utilisateur ou le cache de votre site par exemple.
+				</li>
+				<br>
+				<li>
+					Les bases orientées colonnes, ressemble aux bases de données relationnelles, car les données sont sauvegardées sous forme de ligne avec des colonnes, mais se distingue par le fait que le nombre de colonnes peut varier d'une ligne à l'autre. Les solutions les plus connues sont HBase ou Cassandra.
+				</li>
+				<br>
+				<li>
+					Les bases orientées document, représente les informations sous forme d'objet XML ou JSON. L'avantage est de pouvoir récupérer simplement des informations structurées de manière hiérarchique. Les solutions les plus connues sont CouchDB, RavenDB et MongoDB.
+				</li>
+				<br>
+				<li>
+					Les bases orientées graphe, présentent les données sous forme de noeud et de relation. Cette structure permet de récupérer simplement des relations complexes. Un exemple de base graphe est Neo4J.
+				</li>
+			</ul>		
+		</a>
+	</div>
 	<br>
 	<br>
 	<br>
@@ -112,12 +159,11 @@
 	<br>
 	<br>
 </body>
-<sidebar>
+<a name="haut" id="haut"></a> 
 <div>
-	<nav>
-		
-	<a class="ImageRetour" href="#"><img src="Images/retour.png" alt=""/>
-	</nav>
+	<a href="#" id="cRetour" class="cInvisible" href="#haut"></a>
 </div>
-</sidebar>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {window.onscroll = function(ev) {document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";};});
+</script>
 </html>
