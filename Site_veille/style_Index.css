@@ -1,0 +1,80 @@
+body {background-image:url(Images/fond.jpg); background-repeat: no-repeat; background-position: center; background-color: black; background-attachment:fixed;}
+
+.Titre {position: absolute; margin-left: 35%;}
+
+/****Particule****/
+#particles-js{height: 100%; background-repeat: repeat; background-position: center; margin-top: 0px; }
+#particles-js2{height: 100%; background-repeat: repeat; background-position: center; margin-top: 0px; }
+/*****************/
+
+
+.descriptionLivre{position: absolute; margin-top: 140px; margin-left: 30px;}
+.descriptionListe{position: absolute; margin-top: 220px; margin-left: 15px;}
+
+
+/****Menu page NoSQL****/
+#menuNo{position: fixed; margin-left: 90%; margin-right: -2%; margin-top: -10%; background: #8bb3c2; opacity: 0.8; border-radius:15px; list-style: none;}
+#menuNo1{	color: #000; font-size: 2em;}
+#menuNo2{	color: #000; margin-left: -15px; margin-top: -35%; font-size: 1.1em;}
+/***********************/
+
+/****Menu page Solution NoSQL****/
+#menuSo{position: fixed; margin-left: 90%; margin-right: -2%; margin-top: -10%; background: #8bb3c2; opacity: 0.8; border-radius:15px; list-style: none;}
+#menuSo1{color: #000; font-size: 2em;}
+#menuSo2{color: #000; margin-left: -15px; margin-top: -35%; font-size: 1.1em;}
+/********************************/
+
+ 
+ /****Bouton Livre****/
+ .Livre{position: absolute; width: 200px; height: 222px; background: rgba(0,0,0,0); margin-top: 450px; margin-left: 33%; margin-right: 55%; transform: scale(0.8);}
+ .Livre img { position: absolute; width: 200px; transition: 1s; }
+ .Livre:hover img:nth-child(4) { transform: translate(-40px,-40px); opacity: 1; }
+ .Livre:hover img:nth-child(3) { transform: translate(-30px,-30px); opacity: .8; } 
+ .Livre:hover img:nth-child(2) { transform: translate(-20px,-20px); opacity: .6; }
+ .Livre:hover img:nth-child(1) { transform: translate(-10px,-10px); opacity: .4; }
+/*********************/
+
+
+/****Bouton Liste****/
+ .Liste{position: absolute; width: 200px; height: 180px; background: rgba(0,0,0,0); margin-top: 420px; margin-left: 53%; transform: scale(0.8);}
+ .Liste img { position: absolute; width: 200px; transition: 1s; }
+ .Liste:hover img:nth-child(4) { transform: translate(-40px,-40px); opacity: 1; }
+ .Liste:hover img:nth-child(3) { transform: translate(-30px,-30px); opacity: .8; } 
+ .Liste:hover img:nth-child(2) { transform: translate(-20px,-20px); opacity: .6; }
+ .Liste:hover img:nth-child(1) { transform: translate(-10px,-10px); opacity: .4; }
+/********************/
+
+/****Bouton Lien****/
+ .Lien{position: absolute; width: 200px; height: 180px; background: rgba(0,0,0,0); margin-top: 740px; margin-left: 53%; transform: scale(0.8);}
+ .Lien img { position: absolute; width: 200px; transition: 1s; }
+ .Lien:hover img:nth-child(4) { transform: translate(-40px,-40px); opacity: 1; }
+ .Lien:hover img:nth-child(3) { transform: translate(-30px,-30px); opacity: .8; } 
+ .Lien:hover img:nth-child(2) { transform: translate(-20px,-20px); opacity: .6; }
+ .Lien:hover img:nth-child(1) { transform: translate(-10px,-10px); opacity: .4; }
+/********************/
+
+ .text{position: absolute; background-color: #8bb3c2; margin-left: 350px; margin-right: 380px; margin-top: 350px; text-align: center; border-radius:10px; opacity: 0.8;}
+ .ImageRetour { background-attachment:scroll;  margin-left: 95%; }
+
+
+ul#TypeBDDNoSQL{margin-top: 60px; text-align: left; }
+ul#ListBDD{list-style: none;}
+ul#ListRedis{position: absolute; background-color: #8bb3c2; margin-top: 350px; margin-left: 350px; margin-right: 380px; border-radius:10px; list-style: none;}
+ul#ListCassandra{position: absolute; background-color: #8bb3c2; margin-top: 575px; margin-left: 350px; margin-right: 380px; border-radius:10px; list-style: none;}
+ul#ListMongodb{position: absolute; background-color: #8bb3c2; margin-top: 775px; margin-left: 350px; margin-right: 380px; border-radius:10px; list-style: none;}
+ul#ListNeo4j{position: absolute; background-color: #8bb3c2; margin-top: 1025px; margin-left: 350px; margin-right: 380px; border-radius:10px; list-style: none;}
+ul#oui{position: absolute; margin-top: 1100px; list-style: none;}
+
+/****Page telecharger****/
+/************************/
+.Redis{position: absolute; background-color: #8bb3c2; margin-left: 550px; margin-right: 380px; margin-top: 350px; text-align: center; border-radius:10px; opacity: 0.8;}
+.Cassandra{position: absolute; background-color: #8bb3c2; margin-left: 950px; margin-right: 380px; margin-top: 370px; text-align: center; border-radius:10px; opacity: 0.8;}
+.Mongodb{position: absolute; background-color: #8bb3c2; margin-left: 550px; margin-right: 380px; margin-top: 650px; text-align: center; border-radius:10px; opacity: 0.8;}
+.Neo4j{position: absolute; background-color: #8bb3c2; margin-left: 950px; margin-right: 380px; margin-top: 650px; text-align: center; border-radius:10px; opacity: 0.8;}
+
+
+
+
+
+a:link {text-decoration:none;  color:white;}
+a:visited {text-decoration:none; color:white;}
